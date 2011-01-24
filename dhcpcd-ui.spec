@@ -7,7 +7,10 @@ Group:		Libraries
 Source0:	http://roy.marples.name/downloads/dhcpcd/%{name}-%{version}.tar.bz2
 # Source0-md5:	a42b15650de093bcd3dd60fb94a483f7
 URL:		http://roy.marples.name/projects/dhcpcd-ui/wiki
+BuildRequires:	dbus-devel
 BuildRequires:	gtk+2-devel
+BuildRequires:	libnotify-devel
+BuildRequires:	pkgconfig
 Requires:	dhcpcd-dbus
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
