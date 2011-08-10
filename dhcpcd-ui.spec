@@ -1,12 +1,11 @@
 Summary:	Desktop notification and configuration for dhcpcd
 Name:		dhcpcd-ui
-Version:	0.5.1
-Release:	2
+Version:	0.5.2
+Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	http://roy.marples.name/downloads/dhcpcd/%{name}-%{version}.tar.bz2
-# Source0-md5:	a42b15650de093bcd3dd60fb94a483f7
-Patch0:		%{name}-libnotify.patch
+# Source0-md5:	bb9996c139524510f77f96d029ae5cfc
 URL:		http://roy.marples.name/projects/dhcpcd-ui/wiki
 BuildRequires:	dbus-devel
 BuildRequires:	gtk+2-devel
@@ -30,7 +29,6 @@ You can click on one to configure the PSK or WEP key 0 for it.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %configure
