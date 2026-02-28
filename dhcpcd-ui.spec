@@ -1,7 +1,7 @@
 Summary:	Desktop notification and configuration for dhcpcd
 Name:		dhcpcd-ui
 Version:	0.5.2
-Release:	2
+Release:	3
 License:	BSD
 Group:		Libraries
 Source0:	http://roy.marples.name/downloads/dhcpcd/%{name}-%{version}.tar.bz2
